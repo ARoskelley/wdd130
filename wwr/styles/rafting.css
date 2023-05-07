@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,300&display=swap');
+
+:root {
+    --primary-color: #3E505B;
+    --secondary-color: #A2ABB5;
+    --accent1-color: #C1666B;
+    --accent2-color: #A5CC6B;
+
+    --heading-font: 'Poppins', sans-serif;
+    --paragraph-font: 'Source Sans Pro', serif;
+
+    --nav-background-color: var(--primary-color);
+    --nav-link_color:var(--accent2-color);
+    --nav-hover-link-color:var(--accent2-color);
+    --nav-hover-link-background-color:var(--primary-color)
+
+}
+
+nav {
+    background-color: steelblue;
+    padding:10px;
+}
+
+nav a {
+    color: white;
+    display: block;
+    padding: 20px;
+}
+
+.hero {
+    margin: 1em;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 1em;
+    background-color: #999;
+    background-image: url('../images/background.jpg') no-repeat center center fixed;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #333;
+    text-align: center;
+    position: relative;
+}
+
+.hero h2 {
+    position: absolute;
+}
+
+.hero img {
+    display: block;
+    width: 20%;
+    height: auto;
+    float: right;
+}
+
+section {
+    position: relative;
+}
+
+section img {
+    width: auto;
+    height: 400px;
+    
+}
+
+footer {
+    position: relative;
+}
