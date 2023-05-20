@@ -1,4 +1,4 @@
-div {
+.bigBox {
     background-color: lightgray;
     display: block;
     text-align: center;
@@ -41,3 +41,4 @@ header {
     text-align: center;
     margin-bottom: 50px;
 }
+
